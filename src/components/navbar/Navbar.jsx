@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const handleHideDropDown = () => setShowDropdown((prev) => false);
 
-  const loggedIn = true;
+  const loggedIn = false;
   return (
     <div className={classes.container}>
       <div className={classes.wrapper}>
