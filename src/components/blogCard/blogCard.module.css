@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 30px;
+  box-shadow: 2px 5px 27px -8px rgba(0, 0, 0, 0.18);
+  transition: 150ms;
+  border-radius: 16px;
+}
+.wrapper:hover {
+  box-shadow: 2px 5px 27px -8px rgba(0, 0, 0, 0.4);
+  transform: scale(1.02);
+}
+
+.wrapper > .imgContainer > img {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blogData {
+  margin-top: 1.5rem;
+  margin-left: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.blogData > .left > h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.blogData > .left > p {
+  color: #666;
+}
+
+.blogData > .left > span {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 15px;
+}
+
+.blogData > .left > span > span {
+  color: #777;
+}
+
+.blogData > .right {
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
